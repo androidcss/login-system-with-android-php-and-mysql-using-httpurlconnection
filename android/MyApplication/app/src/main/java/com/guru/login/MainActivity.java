@@ -169,11 +169,11 @@ public class MainActivity extends AppCompatActivity {
             }else if (result.equalsIgnoreCase("false")){
 
                 // If username and password does not match display a error message
-                Toast.makeText(MainActivity.this, "Invalid email or password", Toast.LENGTH_LONG);
+                Toast.makeText(MainActivity.this, "Invalid email or password", Toast.LENGTH_LONG).Show();
 
             } else if (result.equalsIgnoreCase("exception") || result.equalsIgnoreCase("unsuccessful")) {
 
-                Toast.makeText(MainActivity.this, "OOPs! Something went wrong. Connection Problem.", Toast.LENGTH_LONG);
+                Toast.makeText(MainActivity.this, "OOPs! Something went wrong. Connection Problem.", Toast.LENGTH_LONG).Show();
 
             }
         }
